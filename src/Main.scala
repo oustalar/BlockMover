@@ -46,7 +46,7 @@ object MainPanel extends JPanel with ActionListener{
 
 object Game extends JFrame {
   setTitle("Move Block")
-  setPreferredSize(new Dimension(500,600))
+  setPreferredSize(new Dimension(600,700))
   setResizable(true)
   setVisible(true)
   add(MainPanel)
